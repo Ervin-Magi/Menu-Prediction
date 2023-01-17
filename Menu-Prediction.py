@@ -1,4 +1,6 @@
 import pandas as pd
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
 
 # Load the data into a pandas DataFrame
 data = pd.DataFrame([['burger', 'Monday', 10, 20, 4, 50],
